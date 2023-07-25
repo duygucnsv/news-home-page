@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.hamburger-menu-wrapper {
+  display: none;
+}
+
+header .hamburger-menu-open {
+  display: none;
+}
+
+header .desktop-nav {
+  display: flex;
+  gap: 36px;
+}
+
+header .desktop-nav a {
+  color: var(--dark-grayish-blue);
+}
